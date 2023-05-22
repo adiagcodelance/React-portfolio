@@ -1,0 +1,23 @@
+* {
+  font-family: "Lexend Zetta", sans-serif;
+}
+
+.about-container {
+  height: 300px;
+  width: 200px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 6rem;
+  margin-bottom: 5rem;
+  overflow: scroll;
+}
+
+.about-container::-webkit-scrollbar {
+  display: none;
+}
+
+p.about-p1 {
+  text-align: start;
+  overflow-wrap: normal;
+}

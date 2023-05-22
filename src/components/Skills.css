@@ -1,0 +1,49 @@
+* {
+  font-family: "Lexend Zetta", sans-serif;
+}
+
+.title {
+  padding-top: 4rem;
+  padding-left: 3rem;
+  font-weight: bold;
+}
+
+.skills-container {
+  display: flex;
+  overflow-y: scroll;
+}
+.skills-list {
+  list-style: none;
+  overflow-y: scroll;
+  height: 400px;
+}
+.other-skills-list {
+  list-style: none;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.skills-list li {
+  display: flex;
+}
+
+.skills-title p {
+  font-size: 20px;
+  height: 10px;
+}
+.skills-info p {
+  font-size: 12px;
+  font-weight: bold;
+}
+ul:before {
+  content: attr(aria-label);
+  font-size: 120%;
+  font-weight: bolder;
+}
+
+.more-skills {
+  height: 400px;
+  list-style: none;
+  overflow-y: scroll;
+  padding-right: 2rem;
+}

@@ -1,0 +1,40 @@
+* {
+  font-family: "Lexend Zetta", sans-serif;
+}
+
+.project-list {
+  display: flex;
+  list-style: none;
+  column-gap: 40px;
+  overflow-x: scroll;
+}
+
+.project-list p {
+  font-size: 30px;
+  width: 800px;
+  word-wrap: break-word;
+}
+
+.project-title {
+  height: 35px;
+}
+.project-title p {
+}
+
+.project-info p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.project-container {
+  width: 1850px;
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+section:nth-child(even) {
+  background-color: teal;
+  color: white;
+}
