@@ -6,7 +6,7 @@ import About from './components/About';
 import Project from './components/Project';
 import Skill from './components/Skills';
 import Contact from './components/Contact';
-import { AnimatePresence, motion} from 'framer-motion/dist/framer-motion';
+
 
 function App() {
  
